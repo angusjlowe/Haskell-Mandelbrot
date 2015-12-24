@@ -1,0 +1,10 @@
+Registering GLURaw-1.5.0.3...
+Angus\onedrive\projects\Haskell
+Mandelbrot\.cabal-sandbox\i386-windows-ghc-7.10.2\GLURaw-1.5.0.3-690Q5YmXPIe5lXM1FMSkdL
+\GLU\Raw\TypesInternal.hs, dist\dist-sandbox-3ea15086\build\Graphics\Rendering\GLU\Raw\TypesInternal.o )
+[2 of 6] Compiling Graphics.Rendering.GLU.Raw.Callbacks ( src\Graphics\Rendering\GLU\Raw\Callbacks.hs, dist\dist-sandbox-3ea15086\build\Graphics\Rendering\GLU\Raw\Callbacks.o )
+[3 of 6] Compiling Graphics.Rendering.GLU.Raw.Types ( src\Graphics\Rendering\GLU\Raw\Types.hs, dist\dist-sandbox-3ea15086\build\Graphics\Rendering\GLU\Raw\Types.o )
+[4 of 6] Compiling Graphics.Rendering.GLU.Raw.Tokens ( src\Graphics\Rendering\GLU\Raw\Tokens.hs, dist\dist-sandbox-3ea15086\build\Graphics\Rendering\GLU\Raw\Tokens.o )
+[5 of 6] Compiling Graphics.Rendering.GLU.Raw.Functions ( src\Graphics\Rendering\GLU\Raw\Functions.hs, dist\dist-sandbox-3ea15086\build\Graphics\Rendering\GLU\Raw\Functions.o )
+[6 of 6] Compiling Graphics.Rendering.GLU.Raw ( src\Graphics\Rendering\GLU\Raw.hs, dist\dist-sandbox-3ea15086\build\Graphics\Rendering\GLU\Raw.o )
+In-place registering GLURaw-1.5.0.3...
