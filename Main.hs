@@ -47,4 +47,4 @@ mandelbrot2 :: Point -> Color
 mandelbrot2 (u,v) = (chooseColor colors . (mandelbrotFunction)) (u+1,v)
 
 main :: IO ()
-main = display (InWindow "Mandelbrot" (1000,1000) (20,20)) white (Pictures [makePicture 300 300 1 1 (mandelbrot), translate 300 0 (makePicture 300 300 1 1 (mandelbrot2))])
+main = display (InWindow "Mandelbrot" (1000,1000) (20,20)) white (Pictures [makePicture 300 300 1 1 (mandelbrot), translate 500 0 (makePicture 500 500 1 1 (mandelbrot2))])
