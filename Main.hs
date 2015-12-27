@@ -1,26 +1,26 @@
 import Graphics.Gloss
 import Graphics.Gloss.Raster.Field
 
-dodger = makeColorI 30 144 255 255
-navy = makeColorI 0 0 128 255
-midnight = makeColorI 25 25 112 255
-cobalt = makeColorI 61 89 171 255
-royal1 = makeColorI 65 105 225 255
-royal2 = makeColorI 72 118 255 255
-royal3 = makeColorI 58 95 205 255
-royal4 = makeColorI 39 64 139 255
-cfblue = makeColorI 100 149 237 255
-steel = makeColorI 176 196 222 255
-steelblue1 = makeColorI 99 184 255 255
-steelblue2 = makeColorI 79 148 205 255
-skyblue1 = makeColorI 135 206 255 255
-skyblue2 = makeColorI 108 166 205 255
-deepsky1 = makeColorI 0 178 238 255
-deepsky2 = makeColorI 0 191 255 255
-peacock = makeColorI 51 161 201 255
-cadet = makeColorI 152 245 255 255
-turquiose = makeColorI 0 229 238 255
-mangblue = makeColorI 3 168 158 255
+green' = makeColorI 30 255 144 255
+green'' = makeColorI 0 128 0 255
+midnight = makeColorI 25 112 25 255
+cobaltg = makeColorI 61 171 89 255
+royal1 = makeColorI 65 225 105 255
+royal2 = makeColorI 72 255 118 255
+royal3 = makeColorI 58 205 95 255
+royal4 = makeColorI 39 139 64 255
+cfgreen = makeColorI 100 237 149 255
+steel = makeColorI 176 222 196 255
+steelgreen1 = makeColorI 99 255 184 255
+steelgreen2 = makeColorI 79 205 148 255
+lightgreen1 = makeColorI 135 255 206 255
+lightgreen2 = makeColorI 108 206 166 255
+deepgreen1 = makeColorI 0 238 178 255
+deepgreen2 = makeColorI 0 255 191 255
+peacock = makeColorI 51 201 161 255
+cadet = makeColorI 152 255 245 255
+turquiose = makeColorI 0 238 229 255
+mangblue = makeColorI 3 158 168 255
 
 
 
@@ -34,7 +34,7 @@ fairlyClose :: Point -> Bool
 fairlyClose (x,y) = x*x + y*y < 500
 
 colors :: [Color]
-colors = [dodger, navy, midnight, cobalt, royal1, royal2, royal3, royal4, cfblue, steel, turquiose, steelblue1, steelblue2, skyblue1, skyblue2, deepsky1, deepsky2, peacock, cadet, turquiose, mangblue, black]
+colors = [green', green'', midnight, cobaltg, royal1, royal2, royal3, royal4, cfgreen, steel, turquiose, steelgreen1, steelgreen2, lightgreen1, lightgreen2, deepgreen1, deepgreen2, peacock, cadet, turquiose, mangblue, black]
 
 chooseColor :: [Color] -> [Point] -> Color
 chooseColor palette = (palette !!) . length . take (n-1) . takeWhile fairlyClose
